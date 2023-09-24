@@ -1,5 +1,4 @@
 /* eslint-env browser */
-import 'regenerator-runtime/runtime'
 import { BrowserRouter, Route } from 'react-router-dom'
 import App from './app'
 import Loadable from 'react-loadable'
@@ -12,7 +11,6 @@ import loggerFactory from './logger'
 import releaseBranchConsts from '@twreporter/core/lib/constants/release-branch'
 import twreporterRedux from '@twreporter/redux'
 import '@material-symbols/font-400/outlined.css'
-import 'swiper/swiper.min.css'
 // lodash
 import get from 'lodash/get'
 const _ = {
